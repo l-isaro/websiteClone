@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 0px 8px 0px 24px;
+  line-height: 18px;
+  grid-area: auto;
+  font-size: 14px;
+}
+
+nav ul {
+  display: inline-flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+.nav-button {
+  display: inline-flex;
+  gap: 4px;
+}
+
+li button {
+  border-radius: 40000px;
+}
+
+.nav-button img {
+  height: 16px;
+  width: 16px;
+  margin-top: 13px;
+}
+
+a {
+  text-decoration: none;
+}
