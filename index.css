@@ -36,3 +36,9 @@ li button {
 a {
   text-decoration: none;
 }
+
+.section2 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2022/08/02/2022-06-05_Vrbo_APFT2_Barcelona_Therin_House_2_4605_2.png");
+  height: 100vh;
+  background-size: cover;
+}
