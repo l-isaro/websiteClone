@@ -21,6 +21,9 @@ nav ul {
   justify-content: center;
   text-align: center;
   list-style: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .nav-button {
@@ -82,6 +85,7 @@ h1 {
 .section2-button img {
   height: 24px;
   width: 24px;
+  margin-left: 12px;
 }
 
 .seek {
@@ -167,4 +171,36 @@ h4 {
   color: #fff;
   font-size: 20px;
   margin: 10px;
+}
+
+.section5 {
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10em 3em;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-image: url("https://a.travel-assets.com/travel-assets-manager/vrbex-onekey/DE-Hero-Image_Balje.jpg");
+  background-size: cover;
+}
+
+.container h3 {
+  font-size: 42px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container p {
+  color: #fff;
+}
+
+.container button {
+  background-color: #191e3b;
+  color: #fff;
+  border-radius: 25px;
+  padding: 15px;
 }
