@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -112,5 +117,21 @@ h4 {
   margin-left: 12px;
 }
 
-h3 {
+.section3 {
+  margin-top: 40px;
+  margin: 12px;
+}
+
+.section3 h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.section3 h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 16px;
+  margin-bottom: auto;
 }
