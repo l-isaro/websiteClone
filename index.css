@@ -61,11 +61,19 @@ h1 {
   background-color: #fff;
   background-size: cover;
   padding: 12px;
+  border-radius: 16px;
 }
 
-.section2-buttons button {
+.section2-button {
   display: flex;
+  width: 30%;
+  align-items: center;
+  border: 1px solid;
   border-radius: 8px;
-  line-height: 20px;
-  padding: 16px 11px 0px 43px;
+  gap: 12px;
+}
+
+.section2-button img {
+  height: 24px;
+  width: 24px;
 }
