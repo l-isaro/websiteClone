@@ -26,7 +26,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 12px 0;
+  margin: 12px 10px;
   padding: 0px 8px 0px 24px;
   line-height: 18px;
   grid-area: auto;
@@ -366,9 +366,63 @@ h4 {
 }
 
 .section9 h3 {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 .section9 p {
   font-weight: 300;
+}
+
+.section10 {
+  padding: 16px;
+}
+
+.section10 h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-block: 0;
+}
+
+.section10 div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section10 img {
+  width: 1.5%;
+}
+
+.section10 p {
+  font-size: larger;
+  font-weight: 700;
+  margin-block: 1rem;
+}
+
+.foot-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15rem;
+  padding: 16px;
+}
+
+.foot-container h3 {
+  font-size: small;
+}
+
+.foot-container li {
+  font-size: small;
+  font-weight: 200;
+  list-style-type: none;
+  margin-block: 1rem;
+  color: #1668e3;
+}
+
+.foot-container ul {
+  padding-inline: 0;
+}
+
+.copyright {
+  padding: 16px;
+  font-size: small;
+  font-weight: 100;
 }
