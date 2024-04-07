@@ -18,6 +18,10 @@ h4 {
   color: #191e3b;
 }
 
+span {
+  color: #1668e3;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -362,4 +366,9 @@ h4 {
 }
 
 .section9 h3 {
+  font-size: 30px;
+}
+
+.section9 p {
+  font-weight: 300;
 }
